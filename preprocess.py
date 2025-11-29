@@ -7,9 +7,8 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 # Make sure necessary NLTK data is available
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+import nltk
+nltk.data.path.append("./nltk_data")
 
 
 # -----------------------------
