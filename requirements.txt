@@ -4,6 +4,6 @@ scikit-learn
 beautifulsoup4
 emoji
 contractions
-nltk
+nltk==3.8.1
 joblib
 gunicorn
