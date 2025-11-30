@@ -2,10 +2,13 @@ import re, string
 from bs4 import BeautifulSoup
 import contractions
 import emoji
-
-# Make sure necessary NLTK data is available
 import nltk
 nltk.data.path.append("./nltk_data")
+
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+
+# Make sure necessary NLTK data is available
 
 
 # -----------------------------
